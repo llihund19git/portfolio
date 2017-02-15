@@ -17,8 +17,31 @@
 	<link rel="stylesheet" type="text/css" href="css/lightbox.css"/>
 	
 	<style>
-	.cd-slider li img{
+	.cd-slider li img 
+	{
 	    max-width: 500px !important;
+	}
+	#top
+	{
+		 /* The image used */
+	    background-image: url("images/bg4.jpeg");
+
+	    /* Set a specific height */
+	    height: 100%; 
+
+	    /* Create the parallax scrolling effect */
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    color:white;
+	}
+	.blur
+	{
+		background-color: rgba(0, 0, 0, 0.3);
+		border-bottom-color: rgba(255,255,255,0.3);
+	    border-bottom-width: 1px;
+	    border-bottom-style: solid;
 	}
 	</style>
 	
@@ -73,12 +96,12 @@
 					<p>Dunhill Lorem</p>
 				</div>
 
-				<div class="col-md-12 col-sm-12 col-xs-12 m-t50 text-justify">
+				<!-- <div class="col-md-12 col-sm-12 col-xs-12 m-t50 text-justify">
 					<h2 id="aboutme" class="left">ABOUT ME</h2>	
 					<p>Dunhill Lorem</p>
-				</div>
+				</div> -->
 
-				<div class="col-md-12 col-sm-12 col-xs-12 m-t50">
+				<div class="col-md-12 col-sm-12 col-xs-12 blur m-t350">
 					<div class="m-b30">
 						<h2 id="myeducation" class="left">MY EDUCATION</h2>
 					</div>
@@ -106,62 +129,74 @@
 							</center>
 						</div>
 					</div>
+					<div class="m-t50">
+					</div>
 				</div>
 
-				<div class="ol-md-12 col-sm-12 col-xs-12 m-t50">
+				<div class="ol-md-12 col-sm-12 col-xs-12  blur">
+					
 					<h2 id="skills" class="left">SKILLS</h2>	
 					<div class="col-md-6 col-sm-6 col-xs-12">
-						<p>HTML</p>
+						<p>HTML (XML)</p>
 						<div class="progress">
-						    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+						    <div class="progress-bar sec-color" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
 						  	</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12">
-						<p>CSS</p>
+						<p>CSS (Bootstrap)</p>
 						<div class="progress">
-						    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+						    <div class="progress-bar sec-color" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
 						  	</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12">
-						<p>JAVASCRIPT</p>
+						<p>JAVASCRIPT (Jquery, Ajax, JSON)</p>
 						<div class="progress">
-						    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+						    <div class="progress-bar sec-color" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
 						  	</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12">
-						<p>PHP</p>
+						<p>PHP (Codeigniter)</p>
 						<div class="progress">
-						    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+						    <div class="progress-bar sec-color" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
 						  	</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12">
-						<p>JAVA</p>
+						<p>JAVA (SE)</p>
 						<div class="progress">
-						    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+						    <div class="progress-bar sec-color" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
 						  	</div>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-6 col-xs-12">
 						<p>ANDROID</p>
 						<div class="progress">
-						    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-						  	</div>
-						</div>
-					</div
-					><div class="col-md-6 col-sm-6 col-xs-12">
-						<p>PYTHON</p>
-						<div class="progress">
-						    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+						    <div class="progress-bar sec-color" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
 						  	</div>
 						</div>
 					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p>PYTHON</p>
+						<div class="progress">
+						    <div class="progress-bar sec-color" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+						  	</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<p>DATABASE (MySQL, SQL Server, File)</p>
+						<div class="progress">
+						    <div class="progress-bar sec-color" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+						  	</div>
+						</div>
+					</div>
+					<div class="m-t50">
+					</div>
 				</div>
 
-				<div class="col-md-12 col-sm-12 col-xs-12 m-t50">
+				<div class="col-md-12 col-sm-12 col-xs-12  blur">
 					<h2 id="project" class="left">Project</h2>
 					<ul>
 						<li class="col-md-4 col-sm-6 col-xs-12 ">
@@ -229,9 +264,11 @@
 							</div>
 						</li>
 					</ul>
+					<div class="m-t50">
+					</div>
 				</div>
 
-				<div class="col-md-12 col-sm-12 col-xs-12 m-t50">
+				<div class="col-md-12 col-sm-12 col-xs-12  blur">
 					<div class="m-b30">
 						<h2 id="experiences" class="left">MY EXPERIENCES</h2>
 					</div>
@@ -246,14 +283,31 @@
 				      		<h5>Nov. 2015 - Jan. 2016</h5>
 						</div>
 					</div>
+					<div class="m-t50">
+					</div>
 				</div>
 
-				<div class="col-md-12 col-sm-12 col-xs-12 m-t50">
-					<div class="m-b30">
+				<div class="col-md-12 col-sm-12 col-xs-12  blur">
+					<div class="">
 						<h2 id="Certificate" class="left">CERTIFICATE</h2>
 					</div>
 					<div class="row">
 						<div id="owl-demo">
+							<div class="h177 div-image-center item">
+								<a href="images/Leggenda.png" data-lightbox="image-1" data-title="OJT - Leggenda PTE. LTD.">
+			        				<img class="image-size" src="images/Leggenda.png" >
+			      				</a>
+			      			</div>
+			      			<div class="h177 div-image-center item">
+								<a href="images/IT_Congress.png" data-lightbox="image-1" data-title="5th IT Congress">
+			        				<img class="image-size" src="images/IT_Congress.png" >
+			      				</a>
+			      			</div>
+							<div class="h177 div-image-center item">
+								<a href="images/2ndPlace.png" data-lightbox="image-1" data-title="4th IT Congress">
+			        				<img class="image-size" src="images/2ndPlace.png" >
+			      				</a>
+			      			</div>
 							<div class="h177 div-image-center item">
 								<a href="images/cert-1014-1135052.jpg" data-lightbox="image-1" data-title="Solo Learn HTML Tutorial">
 			        				<img class="image-size" src="images/cert-1014-1135052.jpg" >
@@ -285,27 +339,14 @@
 			      				</a>
 			      			</div>
 			      			<div class="h177 div-image-center item">
-								<a href="images/2ndPlace.png" data-lightbox="image-1" data-title="4th IT Congress">
-			        				<img class="image-size" src="images/2ndPlace.png" >
-			      				</a>
-			      			</div>
-			      			<div class="h177 div-image-center item">
-								<a href="images/IT_Congress.png" data-lightbox="image-1" data-title="5th IT Congress">
-			        				<img class="image-size" src="images/IT_Congress.png" >
-			      				</a>
-			      			</div>
-			      			<div class="h177 div-image-center item">
-								<a href="images/Leggenda.png" data-lightbox="image-1" data-title="OJT - Leggenda PTE. LTD.">
-			        				<img class="image-size" src="images/Leggenda.png" >
-			      				</a>
-			      			</div>
-			      			<div class="h177 div-image-center item">
 								<a href="images/Mandarin.png" data-lightbox="image-1" data-title="HSK Level 1 Certificate">
 			        				<img class="image-size" src="images/Mandarin.png" >
 			      				</a>
 			      			</div>
 			      		</div>
 					</div>
+				</div>
+				<div class="m-t50">
 				</div>
 			</div>
 			<div class="col-md-offset-2 col-md-10 col-sm-offset-3 col-sm-9 col-xs-12 text-center footer-bg">
